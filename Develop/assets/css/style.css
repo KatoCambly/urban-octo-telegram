@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    padding: 5%;
+    padding: 2.5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -27,7 +27,7 @@ body {
 }
 
 .header div {
-    margin-top: 5%;
+    padding-top: 5%;
     margin-left: 5%;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -72,7 +72,7 @@ p {
 }
 
 .content {
-    width: 70%;
+    width: 67.5%;
     display: inline-block;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -80,11 +80,10 @@ p {
 
 .benefits {
     margin-right: 2.5%;
-    float: right;
     padding: 5%;
     clear: both;
     float: right;
-    width: 12.5%;
+    width: 9.5%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
@@ -106,16 +105,19 @@ p {
 }
 
 .benefit-lead h3 {
+    padding-right: 5%;
     margin-bottom: 5%;
-    text-align: center;
+    text-align: left;
 }
 
 .benefit-brand h3 {
+    padding-right: 5%;
     margin-bottom: 5%;
     text-align: center;
 }
 
 .benefit-cost h3 {
+    padding-right: 5%;
     margin-bottom: 5%;
     text-align: center;
 }
@@ -208,7 +210,7 @@ p {
 
 /*deals with the issue of the three leftmost sections (not including images*/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    .search-engine-optimization, .online-reputation-management, .social-media-marketing .benefits, .benefit-brand, .benefit-cost, .benefit-lead {
         width: 100%;
     }
 }
